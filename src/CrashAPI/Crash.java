@@ -28,7 +28,7 @@ public class Crash {
     
      /**
      * Gets the data collected by the snow board
-     * @param snowboardData
+     * @param snowboardData snowboard data
      */
     public void getSnowboardData(byte[] snowboardData){
         
@@ -38,7 +38,7 @@ public class Crash {
     
     /**
      * Determines falls/crashes from the collected data
-     * @param snowboardData
+     * @param snowboardData dataset
      */ 
     public void interpretCrashData(byte[] snowboardData){
        
@@ -47,7 +47,7 @@ public class Crash {
     
     /**
      * Returns the crash data interpreted from the incoming snow board data
-     * @return 
+     * @return String data
      */
      public String returnCrashData(){
          

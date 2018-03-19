@@ -22,7 +22,7 @@ public class Snowboard {
     }
 
     /**
-     * Returns data set as byte array
+     * @return data set as byte array
      */
     public byte[] getSnowboardDataSet() {
         return snowboardDataSet;
@@ -30,7 +30,9 @@ public class Snowboard {
 
     
     /**
+     *
      * Sets data set as byte array
+     * @param snowboardDataSet snowboard data set as an array
      */
     public void setSnowboardDataSet(byte[] snowboardDataSet) {
         this.snowboardDataSet = snowboardDataSet;
