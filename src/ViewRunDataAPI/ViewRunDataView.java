@@ -55,7 +55,7 @@ public class ViewRunDataView {
     
     /**
      * This open a new JFrame calling the constructor
-     * @param args
+     * @param args this is the main class for ViewRun Data Viewer class
      */
     public static void main(String[] args) {
         

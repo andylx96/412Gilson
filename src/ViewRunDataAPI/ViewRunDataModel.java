@@ -23,7 +23,7 @@ public class ViewRunDataModel {
     
     /**
      * get double top speed
-     * @return
+     * @return Tspeed
      */
     public double getTspeed(){
         return Tspeed;
@@ -31,7 +31,7 @@ public class ViewRunDataModel {
 
     /**
      * get double average speed
-     * @return
+     * @return Aspeed
      */
     public double getAspeed() {
         return Aspeed;
@@ -39,7 +39,7 @@ public class ViewRunDataModel {
 
     /**
      * get top acceleration
-     * @return
+     * @return Taccel
      */
     public double getTaccel() {
         return Taccel;
@@ -47,7 +47,7 @@ public class ViewRunDataModel {
 
     /**
      * get double average acceleration
-     * @return
+     * @return Aaccel
      */
     public double getAaccel() {
         return Aaccel;
@@ -55,7 +55,7 @@ public class ViewRunDataModel {
 
     /**
      * get double air time
-     * @return
+     * @return AirTime
      */
     public double getAirTime() {
         return AirTime;
@@ -63,7 +63,7 @@ public class ViewRunDataModel {
 
     /**
      * get double max vertical aka height
-     * @return
+     * @return Vertical
      */
     public double getMaxVertical() {
         return Vertical;
@@ -71,7 +71,7 @@ public class ViewRunDataModel {
 
     /**
      * get int fall count
-     * @return
+     * @return Fall
      */
     public int getFallCount() {
         return Fall;
@@ -79,7 +79,7 @@ public class ViewRunDataModel {
 
     /**
      *set top speed 
-     * @param Tspeed
+     * @param Tspeed is a double variable for Top speed
      */
     public void setTspeed(double Tspeed) {
         this.Tspeed = Tspeed;
@@ -87,7 +87,7 @@ public class ViewRunDataModel {
 
     /**
      *set average speed
-     * @param Aspeed
+     * @param Aspeed is a double variable for Average speed
      */
     public void setAspeed(double Aspeed) {
         this.Aspeed = Aspeed;
@@ -95,7 +95,7 @@ public class ViewRunDataModel {
 
     /**
      *set top acceleration
-     * @param Taccel
+     * @param Taccel is a double variable for Average speed
      */
     public void setTaccel(double Taccel) {
         this.Taccel = Taccel;
@@ -103,7 +103,7 @@ public class ViewRunDataModel {
 
     /**
      *set average acceleration
-     * @param Aaccel
+     * @param Aaccel is a double variable for Average acceleration
      */
     public void setAaccel(double Aaccel) {
         this.Aaccel = Aaccel;
@@ -111,7 +111,7 @@ public class ViewRunDataModel {
 
     /**
      *set air time
-     * @param AirTime
+     * @param AirTime is a double variable for ait time duration
      */
     public void setAirTime(double AirTime) {
         this.AirTime = AirTime;
@@ -119,7 +119,7 @@ public class ViewRunDataModel {
 
     /**
      *set max vertical aka height
-     * @param Vertical
+     * @param Vertical is a double variable for max height
      */
     public void setMaxVertical(double Vertical) {
         this.Vertical = Vertical;
@@ -127,7 +127,7 @@ public class ViewRunDataModel {
 
     /**
      *set fall count
-     * @param Fall
+     * @param Fall is a integer variable for fall count
      */
     public void setFallCount(int Fall) {
         this.Fall = Fall;
